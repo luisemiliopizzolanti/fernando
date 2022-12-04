@@ -164,7 +164,7 @@ hr {
 }
 
 .section-title {
-    margin-bottom: 70px;
+    margin-bottom: 40px;
 }
 
 .section-title p {
@@ -587,4 +587,28 @@ label {
 
 .my-float {
     margin-top: 16px;
+}
+
+
+/*Testimonial Section*/
+
+.circulo {
+    width: 40rem;
+    height: 40rem;
+    border-radius: 50%;
+    background: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0px auto;
+    padding: 3%
+}
+
+.circulo>h2 {
+    font-family: sans-serif;
+    color: white;
+    font-size: 1.4rem;
+    font-weight: bold;
 }
